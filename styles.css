@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@500&display=swap');
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+
+body{
+  background-size: 1380px 1150px;
+  background-repeat: no-repeat;
+  background-image: url(https://img.wattpad.com/ae4e6467a048b2e04e5d44e9237f783ffe229190/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f514c344178614d5131794e626f413d3d2d3738393936323338372e313563633964663633383339626633623634313837353832343730382e706e67);
+}
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    padding: 5px 10%;
+  background-color: rgba(0, 255, 255, 0);
+ color: #bd38bd;
+}
+
+nav{
+ height: 100px;
+}
+nav > ul{
+  display: flex;
+  height: 100px;
+}
+
+nav > ul > li{
+  height: 100px;
+  list-style: none;
+  position: relative;
+}
+nav > ul > li > a{
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+  display: flex;
+}
+.rr{
+  height: 700px;
+  width: 120px;
+  margin: auto;
+  text-align: center;
+  display: grid;
+  place-content: center;
+}
+
+
+.my-button {
+  padding: 10px 20px;
+  background-color: #bd38bd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto;
+  
+}
+
+
+
+.my-button:hover {
+  background-color: #5f115f;
+}
+
+.my-button:active {
+  background-color: #650c68;
+}
+
+
+.ee{
+  color: #2891d6;
+  padding:8px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+    header {
+        flex-direction: column;
+    }
+    
+    nav {
+        padding: 5px 0px;
+    }
+}
+
+
+.Esther{
+  margin: auto;
+  text-align: center;
+  color: #c523c5;
+  height: 120px;
+}
+.ww{
+  text-align: center;
+  margin: auto;
+color: #2891d6;
+
+}
+
+.qq{
+  color: #bd38bd;
+  text-align: center;
+}

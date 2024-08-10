@@ -1,0 +1,76 @@
+body {
+background-image: url(./img/love.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+
+}
+.slider-container {
+    position: relative;
+    width: 320px;
+    height: 500px;
+   
+    margin: auto;
+    overflow: hidden;
+    border-radius: 50px;
+    border: 2px solid #621ae9; /* Borde opcional para mejorar el diseño */
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+    width: 320px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.radio img{
+    width: 320px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 100;
+    transform: translateY(-50%);
+    font-size: 24px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+
+    body {
+    
+    background-image: url(img/ht.jpg);
+    }
+    }
+    
+
+    .tt{
+text-align: center;
+color: #cd2bd3;
+    }
+      
